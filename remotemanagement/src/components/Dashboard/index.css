@@ -1,0 +1,49 @@
+header{
+    background-color: #1b3ebd;
+    width: 100%;
+    height: 120px;
+    padding: 0 0 0 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color:#ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="number"] {
+    padding-right: 30px; /* Increase the padding to accommodate the bigger buttons */
+}
+
+input[type="number"]::-webkit-inner-spin-button:before,
+input[type="number"]::-webkit-outer-spin-button:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 15px; /* Increase the width for bigger buttons */
+    background-color: #ccc; /* Change the background color of the buttons */
+}
+
+input[type="number"]::-webkit-inner-spin-button:before {
+    border-top: 1px solid #000; /* Change the style of the top button */
+}
+
+input[type="number"]::-webkit-outer-spin-button:before {
+    border-bottom: 1px solid #000; /* Change the style of the bottom button */
+}
