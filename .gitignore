@@ -6604,3 +6604,7 @@ Socket/famnkunf_xyz.p7b
 .venv/lib/python3.10/site-packages/wsproto-1.2.0.dist-info/RECORD
 .venv/lib/python3.10/site-packages/wsproto-1.2.0.dist-info/top_level.txt
 .venv/lib/python3.10/site-packages/wsproto-1.2.0.dist-info/WHEEL
+PythonSocketServer/famnkunf_xyz.ca-bundle
+PythonSocketServer/famnkunf_xyz.crt
+PythonSocketServer/famnkunf_xyz.key
+PythonSocketServer/famnkunf_xyz.p7b
